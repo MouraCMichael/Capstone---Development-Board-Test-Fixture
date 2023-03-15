@@ -8,7 +8,12 @@ Connor Inglat, Nathan Hanchey, Dylan Vetter, Corey Moura
 
 <br/>
 
-### Team Captian: Corey Moura
+### Team Roles
+Captian:   Corey Moura    - CE/ME
+Secretary: Dylan Vetter   - EE
+Treasurer: Connor Inglat  - CE/EE
+Coms(POC): Nathan Hanchey - CE/EE
+
 
 <br/>
 <br/>
