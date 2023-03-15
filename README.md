@@ -111,12 +111,40 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 
 <br/>
 <br/>
+  
 <img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352762-6fcb9ccf-6f60-4500-82b1-d0c220bbecc1.JPG"> 
 
 <br/>
 <br/>
+  
 <img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352842-f8da5777-ef16-4aa7-8350-ab62733b665c.JPG">
 
-
   
+  
+## Manufacturing
+ 
+<p align="center">
+ 
+<br/>
+<br/>
+
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225355988-87d5b106-d848-4779-af5d-da7b8d6ee59c.JPG">
+  
+<br/>
+<br/>
+
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225356074-ebeec2c3-f09c-4bee-8971-aacbf185e70a.JPG">
+  
+<br/>
+<br/>
+
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225356215-7823da00-2700-4315-8c5e-638f98dde4b9.JPG">
+ 
+<br/>
+<br/>
+  
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225356371-ac079cf7-e346-46af-8ec8-49b13a798224.JPG">
+
+<br/>
+<br/>
   
