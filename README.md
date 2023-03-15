@@ -155,17 +155,19 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 <br/>
 <br/>
 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="">
- 
- 
- 
- 
- 
- ## Jigs / Manufacturing fixtures
- 
-<p align="center">
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225363482-2d5d884e-e75d-48f8-92e4-4009d1869aab.JPG">
  
 <br/>
 <br/>
 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="">
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225364352-ef1018c9-f686-43ca-b985-aa9f72229646.jpg">
+
+<br/>
+<br/>
+
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225364551-118b5ede-9526-4437-9946-8ec32a50f25a.png">
+ 
+<br/>
+<br/>
+
+
