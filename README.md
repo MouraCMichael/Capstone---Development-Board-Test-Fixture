@@ -148,3 +148,24 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 <br/>
 <br/>
   
+## Jigs / Manufacturing fixtures
+ 
+<p align="center">
+ 
+<br/>
+<br/>
+
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="">
+ 
+ 
+ 
+ 
+ 
+ ## Jigs / Manufacturing fixtures
+ 
+<p align="center">
+ 
+<br/>
+<br/>
+
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="">
