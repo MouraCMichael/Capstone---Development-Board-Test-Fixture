@@ -53,7 +53,9 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 
  
 # PCB
-
+ 
+<p align="center">
+ 
 <br/>
 <br/>
  
@@ -68,6 +70,8 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 <br/>
  
 # 3D Printing (PLA and Carbon Fiber Nylon)
+ 
+<p align="center">
  
 <br/>
 <br/>
@@ -93,6 +97,8 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 <br/>
 
  # CNC Milling (ABS and Lexane)
+ 
+ <p align="center">
 
 <br/>
 <br/>
@@ -100,6 +106,12 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
  
 <br/>
 <br/>
+  
+<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225353787-90219e27-f05b-4e78-ae53-a123007ae314.JPG">  
+
+<br/>
+<br/>
+  
 <img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352537-bbb856c9-b631-444d-b6c3-5fde73159302.JPG">
 
 <br/>
@@ -111,8 +123,5 @@ Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://
 <img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352842-f8da5777-ef16-4aa7-8350-ab62733b665c.JPG">
 
 
-
- 
- 
   
   
