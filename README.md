@@ -1,14 +1,15 @@
 # Capstone Development Board Test Fixture
 Development board test fixture designed to test the hardware features of the Arduino Uno and STM32 Nucleo development boards. 
 
+<br/>
 
 ## Contributors: 
-
 Corey Moura   | Captian   | CE/ME <br/>
 Dylan Vetter  | Secretary | EE    <br/>
 Connor Inglat | Treasurer | CE/EE <br/>
 Nathan Hanchey| Coms(POC) | CE/EE <br/>
 
+<br/>
 
 ## Description
 Students and professors often have the need to identify whether unusual behavior in an embedded sytems project is hardware or software related. Oftentimes, it can be quite cumbersome to diagnose hardware related issues that may occur within a microcontroller, such as damaged GPIO pins, voltage regulators, and other critical hardware peripherals. This presents a need to find a more expedient way to diagnose these issues. 
