@@ -2,11 +2,11 @@
 Development board test fixture designed to test the hardware features of the Arduino Uno and STM32 Nucleo development boards. 
 
 
-### Collaberated effort by: 
+## Contributors: 
 Connor Inglat, Nathan Hanchey, Dylan Vetter, Corey Moura
 
 
-### Team Roles
+## Team Roles
 Captian:   Corey Moura    - CE/ME <br/>
 Secretary: Dylan Vetter   - EE    <br/>
 Treasurer: Connor Inglat  - CE/EE <br/>
@@ -21,8 +21,10 @@ This project solves this problem by testing the functionality of the Arduino Uno
 
 Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://www.linkedin.com/in/corey-moura
 
+
 <p align="center">
 
+<br/>
 <br/>
 <br/>
 
