@@ -3,15 +3,11 @@ Development board test fixture designed to test the hardware features of the Ard
 
 
 ## Contributors: 
-Connor Inglat, Nathan Hanchey, Dylan Vetter, Corey Moura
 
-
-## Team Roles
-Captian:   Corey Moura    - CE/ME <br/>
-Secretary: Dylan Vetter   - EE    <br/>
-Treasurer: Connor Inglat  - CE/EE <br/>
-Coms(POC): Nathan Hanchey - CE/EE <br/>
-
+Corey Moura   | Captian   | CE/ME <br/>
+Dylan Vetter  | Secretary | EE    <br/>
+Connor Inglat | Treasurer | CE/EE <br/>
+Nathan Hanchey| Coms(POC) | CE/EE <br/>
 
 
 ## Description
