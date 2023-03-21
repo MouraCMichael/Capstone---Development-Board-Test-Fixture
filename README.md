@@ -1,171 +1,56 @@
-# Capstone Development Board Test Fixture
-Development board test fixture designed to test the hardware features of the Arduino Uno and STM32 Nucleo development boards. 
+# MicroDev Development Board Tester Setup
 
-<br/>
-
-## Contributors: 
-Corey Moura   | Captian   | CE/ME <br/>
-Dylan Vetter  | Secretary | EE    <br/>
-Connor Inglat | Treasurer | CE/EE <br/>
-Nathan Hanchey| Coms(POC) | CE/EE <br/>
-
-<br/>
-
-## Description
-Students and professors often have the need to identify whether unusual behavior in an embedded sytems project is hardware or software related. Oftentimes, it can be quite cumbersome to diagnose hardware related issues that may occur within a microcontroller, such as damaged GPIO pins, voltage regulators, and other critical hardware peripherals. This presents a need to find a more expedient way to diagnose these issues. 
-
-This project solves this problem by testing the functionality of the Arduino Uno and STM microcontroller hardware. This allows students and professors to either confirm hardware faults or rule out any hardware errors thought to be causing issues. This device displays the hardware test results on a graphical user interface (GUI) allowing diagnosis to be quick and easy so students can get back to learning.
-
-Find me on [LinkedIn](https://www.linkedin.com/in/corey-moura)   ---->  https://www.linkedin.com/in/corey-moura
+## Raspbian Setup
+- Download Raspbian OS Imager (https://www.raspberrypi.com/software/)
+- Insert and locate SD card on computer
+- Install Recommended Raspberry Pi OS (w/ Software) to SD card.
+- Boot-up Raspi
+- Username: microdev | Password: microdev
+- Connect to Internet
+- Terminal: git clone https://github.com/hancheyn/MicroDev.git
+- Terminal: chmod 777 MicroDev/setup.sh
+- Terminal: ./MicroDev/setup.sh
+- File Manager > Edit > Preferences > Volume Management > 
+[uncheck] Show available options for removable media when they are inserted
+- Raspberry Pi Configuration > [disable] Screen Blanking
 
 
-<p align="center">
+## Arduino CLI Installation & Application
+Start up raspberry pi using an hdmi monitor, keyboard, and mouse.
 
-<br/>
-<br/>
-<br/>
+    Download in Add/Remove Software:
+- Raspberry OS Start Menu > Preferences > Add/Remove Software
+- Search “arduino”
+- Check AVR development board IDE
+- Check Command Line Tool for compiling Arduino Sketches
+- Click Apply and Wait for Download. 
 
-<img width="2200" height=”2800” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225345295-d277a457-437a-4249-bb94-a2807c5c721b.png"> 
 
-<br/>
-<br/>
- 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225348175-86493c1e-b112-4d73-ae26-856564a44fc0.JPG">  
-   
-<br/>
-<br/>
+    Download in Terminal:
+- Terminal: curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+- Put arduino-cli into a runnable folder so the command will run on its own ($PATH).
+- Terminal Command: arduino-cli core install arduino:avr
+- Terminal Command View Connected Boards: arduino-cli board list
+- Terminal Command Compile .ino example: arduino-cli compile -b arduino:avr:uno Blink.ino -e
+- Terminal Command Upload .ino example: arduino-cli upload -b arduino:avr:uno -p /dev/ttyACM0 Blink.ino
 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225347271-eeb8c65d-02fa-4154-9620-94499156753e.JPG">
 
-<br/>
-<br/> 
-   
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225335189-e7add3ec-f0ec-49e8-b8bd-c7fb8b0494c5.JPG">
+### FLASH TO ARDUINO NOTES:
+The Arduino CLI does not automatically create a permanent bit file for uploading. In order to do this, one must add the command ‘-e’ while compiling. This looks like the following: arduino-cli compile -b arduino:avr:uno Blink.ino -e.This will create a new folder within the arduino project folder that contains a bit file, “[Project name].ino.with_bootloader.bin”. This should be in a folder with a file path ./build/arduino.avr.uno/. In Terminal, the command arduino-cli upload -b arduino:avr:uno -p /dev/ttyACM0 -i [binary file path] will upload the file.
+    
+STM32 CLI Installation & Application
+Start up raspberry pi using an hdmi monitor, keyboard, and mouse.
 
-<br/>
-<br/>
+    Download in Add/Remove Software:
+- Raspberry OS Start Menu  > Preferences > Add/Remove Software
+- Search “stlink”
+- Check OpenSource ST-Link tools replacement… (x3)
+  - …libstlink1-1.6.1+ds-3
+  - …stlink-gui-1.6.1+ds-3
+  - …stlink-tools-1.6.1+ds-3
 
- 
-## PCB
- 
-<p align="center">
- 
-<br/>
-<br/>
- 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225349703-f8c2c3bd-b902-4b4b-9155-fbde9e635a30.png">
- 
-<br/>
-<br/>
- 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225349764-ed273e62-bdab-4985-b739-59bc20b57167.png">
- 
-<br/>
-<br/>
- 
-## 3D Printing (PLA and Carbon Fiber Nylon)
- 
-<p align="center">
- 
-<br/>
-<br/>
- 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225350100-a1f4a405-8392-4405-a047-4c46de76a3e2.JPG">
- 
-<br/>
-<br/>
- 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225350467-42fe28ea-4054-4aad-9329-94d5be9d4476.JPG">
+- Click Apply and Wait for Download 
 
-<br/>
-<br/>
 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225350661-2d938747-3fe7-46b0-a05f-0d5f95f0bb9f.JPG"> 
-
-<br/>
-<br/>
- 
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225351292-50bddd41-b865-461f-b50e-9e443e460c33.JPG"> 
-
-<br/>
-<br/>
-
- ## CNC Milling (ABS and Lexane)
- 
- <p align="center">
-
-<br/>
-<br/>
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352362-3b186f72-d48d-4d61-ab05-29ebb313761a.JPG">
- 
-<br/>
-<br/>
-  
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225353787-90219e27-f05b-4e78-ae53-a123007ae314.JPG">  
-
-<br/>
-<br/>
-  
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352762-6fcb9ccf-6f60-4500-82b1-d0c220bbecc1.JPG"> 
-
-<br/>
-<br/>
-  
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225352842-f8da5777-ef16-4aa7-8350-ab62733b665c.JPG">
-
-  
-  
-## Manufacturing
- 
-<p align="center">
- 
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225355988-87d5b106-d848-4779-af5d-da7b8d6ee59c.JPG">
-  
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225356074-ebeec2c3-f09c-4bee-8971-aacbf185e70a.JPG">
-  
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225356215-7823da00-2700-4315-8c5e-638f98dde4b9.JPG">
- 
-<br/>
-<br/>
-  
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225356371-ac079cf7-e346-46af-8ec8-49b13a798224.JPG">
-
-<br/>
-<br/>
-  
-## Jigs / Manufacturing fixtures
- 
-<p align="center">
- 
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225363482-2d5d884e-e75d-48f8-92e4-4009d1869aab.JPG">
- 
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225364352-ef1018c9-f686-43ca-b985-aa9f72229646.jpg">
-
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225364551-118b5ede-9526-4437-9946-8ec32a50f25a.png">
- 
-<br/>
-<br/>
-
-<img width="400" height=”550” alt="screen shot 2018-11-08 at 6 03 30 pm" src="https://user-images.githubusercontent.com/37875517/225365167-11d78abe-4f57-45b7-a836-c6c466cbedfb.JPG">
-
-<br/>
-<br/>
-
+### FLASH TO STM32 NOTES:
+The STMCubeIDE does not automatically create a permanent bit file for uploading. Since it uses a .elf file (located in the debug folder) this must first be converted to a .bin file before flashing can occur. The .elf file can be converted using the following command from terminal arm-none-eabi-objcopy -O binary F401RE_T.elf main.bin. In the previous example, F401RE_T.elf becomes a binary file called main.bin. Flashing can then occur using the command st-flash write main.bin 0x08000000.
