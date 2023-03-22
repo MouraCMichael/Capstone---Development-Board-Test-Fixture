@@ -94,6 +94,8 @@ The STMCubeIDE does not automatically create a permanent bit file for uploading.
 
 ## 3D Printing (ABS and Carbon Fiber Nylon)
 
+<p align="center">
+
 <br/>
 
 <img width="432" height=”600” src="https://user-images.githubusercontent.com/37875517/226965187-a5dd0e39-5ea7-4892-941d-0d09553bceaf.JPG">
