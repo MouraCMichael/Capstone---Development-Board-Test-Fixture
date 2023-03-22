@@ -80,3 +80,46 @@ The STMCubeIDE does not automatically create a permanent bit file for uploading.
 <br/>
 
 
+<p align="center">
+
+<img width="432" height=”600” src="https://user-images.githubusercontent.com/37875517/226964836-da47432e-cf38-4e9c-86bd-8de6afd10ea4.JPG">
+
+<br/>
+
+<img width="432" height=”600” src="https://user-images.githubusercontent.com/37875517/226966803-539ed88b-e482-46cf-93f4-b96c79a6cd46.png">
+
+<br/>
+
+
+
+## 3D Printing (ABS and Carbon Fiber Nylon)
+
+<br/>
+
+<img width="432" height=”600” src="https://user-images.githubusercontent.com/37875517/226965187-a5dd0e39-5ea7-4892-941d-0d09553bceaf.JPG">
+
+<br/>
+
+<img width="432" height=”600” src="https://user-images.githubusercontent.com/37875517/226965286-b2558b65-4e62-4394-84d4-20011f0cb100.JPG">
+
+<br/>
+
+<img width="432" height=”600” src="https://user-images.githubusercontent.com/37875517/226965617-c36e220e-3953-486f-8e0b-ae1c520db927.png">
+
+<br/>
+
+<img width="432" height=”600” src="">
+
+<br/>
+
+<img width="432" height=”600” src="">
+
+<br/>
+
+<img width="432" height=”600” src="">
+
+<br/>
+
+<img width="432" height=”600” src="">
+
+<br/>
