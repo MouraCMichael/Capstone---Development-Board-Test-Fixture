@@ -1,7 +1,8 @@
 # Capstone Development Board Tst Fixture
 
+Development board test fixture designed to test the hardware features of the Arduino Uno and STM32 Nucleo development boards.
 
-
+</br>
 
 # MicroDev Development Board Tester Setup
 
